@@ -15,6 +15,8 @@
 		8A3E56662044F71500E6A7A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E56652044F71500E6A7A0 /* main.m */; };
 		8A3E56702044F71500E6A7A0 /* TransFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E566F2044F71500E6A7A0 /* TransFormTests.m */; };
 		8A3E567B2044F71500E6A7A0 /* TransFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E567A2044F71500E6A7A0 /* TransFormUITests.m */; };
+		8A3E568A2044F79000E6A7A0 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E56892044F79000E6A7A0 /* TwoViewController.m */; };
+		8A3E568D2044F8A800E6A7A0 /* TransformAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E568C2044F8A800E6A7A0 /* TransformAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		8A3E56762044F71500E6A7A0 /* TransFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3E567A2044F71500E6A7A0 /* TransFormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransFormUITests.m; sourceTree = "<group>"; };
 		8A3E567C2044F71500E6A7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3E56882044F79000E6A7A0 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		8A3E56892044F79000E6A7A0 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		8A3E568B2044F8A800E6A7A0 /* TransformAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformAnimation.h; sourceTree = "<group>"; };
+		8A3E568C2044F8A800E6A7A0 /* TransformAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				8A3E56612044F71500E6A7A0 /* LaunchScreen.storyboard */,
 				8A3E56642044F71500E6A7A0 /* Info.plist */,
 				8A3E56652044F71500E6A7A0 /* main.m */,
+				8A3E56882044F79000E6A7A0 /* TwoViewController.h */,
+				8A3E56892044F79000E6A7A0 /* TwoViewController.m */,
+				8A3E568B2044F8A800E6A7A0 /* TransformAnimation.h */,
+				8A3E568C2044F8A800E6A7A0 /* TransformAnimation.m */,
 			);
 			path = TransForm;
 			sourceTree = "<group>";
@@ -266,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3E565B2044F71500E6A7A0 /* ViewController.m in Sources */,
+				8A3E568D2044F8A800E6A7A0 /* TransformAnimation.m in Sources */,
 				8A3E56662044F71500E6A7A0 /* main.m in Sources */,
 				8A3E56582044F71500E6A7A0 /* AppDelegate.m in Sources */,
+				8A3E568A2044F79000E6A7A0 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
